@@ -18,6 +18,27 @@
     --dark: #091E3E;
 }
 
+.bg-form-input-overwright input,
+.bg-form-input-overwright select,
+.bg-form-input-overwright textarea{
+    background: #21211d !important;
+    background-color: #21211d !important;
+    color: white;
+}
+
+.bg-form-input-overwright select option {
+    color: #ffffff !important;
+    background: var(--dark) !important;
+}
+.bg-form-input-overwright input::placeholder,
+.bg-form-input-overwright textarea::placeholder {
+    color: #ffffff !important;
+}
+/* .bg-form-input-overwright #submit_quote:hover {
+    background: var(--light);
+    color: #dbd9d9 !important;
+} */
+
 
 /*** Spinner ***/
 .spinner {
@@ -698,14 +719,19 @@ h6,
 .free-quote .form-area {
     background-color: #f4f2f5 !important;
     background-color: #d8c8e0 !important;
-    width: 90% !important;
     margin: 16px auto !important;
+}
+@media (max-width: 767.98px) {
+    .free-quote .form-area {
+        width: 90% !important;
+    }
 }
 .free-quote .form-area form input,
 .free-quote .form-area form select,
 .free-quote .form-area form textarea {
     color: #dbd9d9 !important;
     background: var(--secondary) !important;
+    background: #632a02 !important;
 }
 .free-quote .form-area form select option {
     color: #ffffff !important;
@@ -850,6 +876,21 @@ h6,
 
 .bg-header {
     background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+.ABout.bg-header {
+    background: rgba(86, 52, 96, .8);
+    background: linear-gradient(rgba(86, 52, 96, .8), rgba(9, 30, 62, .7)), url(../images/pexels-christina-morillo-1181415.jpg) center center no-repeat;
+    background-size: cover; 
+}
+.SErvices.bg-header {
+    background: rgba(86, 52, 96, .8);
+    background: linear-gradient(rgba(86, 52, 96, .8), rgba(9, 30, 62, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+.COntact.bg-header {
+    background: rgba(86, 52, 96, .8);
+    background: linear-gradient(rgba(86, 52, 96, .8), rgba(9, 30, 62, .7)), url(../images/pexels-christina-morillo-1181415.jpg) center center no-repeat;
     background-size: cover;
 }
 
