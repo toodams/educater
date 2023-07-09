@@ -39,6 +39,15 @@
     color: #dbd9d9 !important;
 } */
 
+.overlay-enroll{
+    width: 150px !important;
+    height: 50px !important;
+    border-radius: 5% !important;
+}
+.overlay-enroll i{
+    padding: 0 10px;
+}
+
 
 /*** Spinner ***/
 .spinner {
